@@ -1,0 +1,13 @@
+Robby the Robot
+Copyright (C) 2009  Adam J. DiCarlo <adam.dicarlo@gmail.com>
+
+Robby is a robot who tries to pick up as many littered soda cans as possible in a 10x10 (100-cell) office, which can have up to 1 can per cell. More about Robby is at http://adamdicarlo.com/projects/robby-the-robot .
+
+I've tested Robby on...
+
+OS             GCC     SCons
+-------------------------------------
+Mac OS X       4.0.1   v1.1.0.r3603
+Ubuntu Linux   4.3.2   v0.98.5.r3057
+
+Please tell me if you find compile errors with a certain software combination.

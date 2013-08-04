@@ -33,9 +33,11 @@
 WORLD* WorldCreate(uint cx, uint cy) {
 	ASSERT(cx > 0 && cy > 0);
 	WORLD* pwld = (WORLD*) malloc(sizeof(WORLD));
+	VerifyAlloc(pwld, "world");
 	pwld->cx = cx;
 	pwld->cy = cy;
 	pwld->cells = (CELL*) malloc(sizeof(CELL) * cx * cy);
+	VerifyAlloc(pwld->cells, "world cells (%dx%d)", cx, cy);
 	return pwld;
 }
 

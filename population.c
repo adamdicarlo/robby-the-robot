@@ -33,7 +33,7 @@ POPULATION* PopulationCreate(int cStrategies) {
 	pPop->cstg   = cStrategies;
 	pPop->maxstg = cStrategies;
 	pPop->rgstg  = (STRATEGY*) malloc(sizeof(STRATEGY) * cStrategies);
-	VerifyAlloc(pPop, "population strategies");
+	VerifyAlloc(pPop->rgstg, "population strategies");
 	return pPop;
 }
 

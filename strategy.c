@@ -1,6 +1,11 @@
 /*****************************************************************************
  * strategy.c: Functions related to STRATEGY data structure.
  *
+ * WARNING! This codebase uses an uncommon variable naming convention. It makes
+ * sense--with an explanation--I swear! Please see the README.
+ *
+ * ---------------------------------------------------------------------------
+ *
  * Copyright (C) 2009  Adam J. DiCarlo <adam.dicarlo@gmail.com>
  *
  * This file is part of Robby the Robot.

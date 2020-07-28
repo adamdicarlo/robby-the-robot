@@ -34,6 +34,10 @@
 #include "world.h"
 #include "robby.h"
 
+/*
+ * WARNING! This codebase uses an uncommon variable naming convention. It makes
+ * sense--with an explanation--I swear! Please see the README.
+ */
 
 #define GENERALIZATION_SESSIONS		1000.0
 

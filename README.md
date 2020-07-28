@@ -1,6 +1,6 @@
 # Robby the Robot
 
-Robby is a robot who tries to pick up as many littered soda cans as possible in a 10x10 (100-cell) office, which can have up to 1 can per cell. More about Robby is at http://adamdicarlo.com/genetic-algorithm-robby-the-robot (broken link, sorry).
+Robby is a robot who tries to pick up as many littered soda cans as possible in a 10x10 (100-cell) office, which can have up to 1 can per cell. More about Robby is at http://adamdicarlo.com/genetic-algorithm-robby-the-robot (link currently broken, sorry!).
 
 
 ## Variable naming convention
@@ -33,7 +33,7 @@ Prefixes for types specific to this program:
 - `stg`: STRATEGY struct
 - `wld`: WORLD struct
 - `Pop`: POPULATION struct (capitalization to avoid leading-p confusion with
-  pointers.)
+  pointers)
 
 Examples:
 
@@ -42,5 +42,5 @@ Examples:
 - `iact` is an index into an array of actions ([i]ndex and [act]ion are clear
   enough, thus it doesn't need to be `irgact`)
 - `cStrategies` is a count of strategies. More traditional names for this
-  variable, would be `num_strategies` or `strategy_count`.
+  variable would be `num_strategies` or `strategy_count`.
 

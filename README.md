@@ -29,7 +29,7 @@ types (structs), as well.
 
 Prefixes for types specific to this program:
 
-- `act`: ACTION struct
+- `act`: ACTION value (an enum)
 - `stg`: STRATEGY struct
 - `wld`: WORLD struct
 - `Pop`: POPULATION struct (capitalization to avoid leading-p confusion with

@@ -18,11 +18,11 @@ Robby’s strategy is a finite state machine which describes which action to tak
 * Do nothing
 * Try to pick up a soda can in current cell
 
-With no knowledge of where he is in the room, and no memory of where he’s been, how can he act in a way that maximizes his score? There are three versions of Robby:
+With no knowledge of where he is in the room, and no memory of where he’s been, how can he act in a way that maximizes his score? There are three versions of Robby to compare:
 
 1. “Darwin” Robby: Genetic algorithm (default)
 2. “Smart” Robby: Genetic algorithm plus some extra hard-coded logic that allows him to avoid punishments
-3. “Intelligent” Design Robby: A hand-crafted strategy that does not evolve
+3. “Intelligent Design” Robby: A hand-crafted strategy that does not evolve
 
 The genetic algorithms start with completely random genes (which are Robby’s strategy/FSM), and use selection of the fittest, mutation, and crossover to evolve this strategy over many generations.
 

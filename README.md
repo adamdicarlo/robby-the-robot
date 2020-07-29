@@ -31,9 +31,9 @@ The genetic algorithms start with completely random genes (which are Robby’s s
 
 This codebase uses an uncommon variable naming convention. It makes sense--with an explanation--I swear!
 
-The convention is something like Applications Hungarian. (It's not widely documented enough to know for sure.)
+The convention is something like Applications Hungarian. (It’s not widely documented enough to know for sure.)
 
-It's similar to classic Windows APIs (Systems Hungarian), where each variable's name has a prefix
+It’s similar to classic Windows APIs (Systems Hungarian), where each variable’s name has a prefix
 indicating its type, like `w`, `dw`, `pb`: word, dword, pointer to a byte, respectively.
 
 Instead of those low-level prefixes that strictly represent data type, we use these, which signify what the variable represents:
@@ -64,7 +64,7 @@ Examples:
 - `pstgMother` is a pointer to a STRATEGY for a "mother" (one of the
   parents used when "mating" strategies)
 - `iact` is an index into an array of actions ([i]ndex and [act]ion are clear
-  enough, thus it doesn't need to be `irgact`)
+  enough, thus it doesn’t need to be `irgact`)
 - `cStrategies` is a count of strategies. More traditional names for this
   variable would be `num_strategies` or `strategy_count`.
 
